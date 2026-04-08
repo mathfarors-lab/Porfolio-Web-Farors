@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/font.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      :root {
+        --primary-gold: #d4af37;
+        --dark-stone: #1f2327;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: var(--dark-stone);
+        color: #333;
+        background-size: cover;
+        background-position: center;
+      }
+      main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+      }
+      #hero-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100% !important;
+        justify-content: space-between;
+        padding-left: 100px;
+      }
+      #profile {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      #profile .img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+
+        display: flex;
+      }
+      #profile .my-img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-top: 20px;
+        display: flex;
+        margin-left: -150px;
+        position: absolute;
+        right: 57%;
+        border: 2px solid var(--primary-gold);
+        box-shadow: 0 4px 50px var(--primary-gold);
+        perspective: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="text m-0 text-shadow-gold">My Portfolio</h1>
+      <nav id="navbar">
+        <ul
+          class="d-flex justify-content-center list-unstyled text m-0 list-style-none">
+          <li>
+            <a href="index.html" class="">Home </a>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about-me.html" class="active">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact"
+        ><button class="btn btn-primary">Get in Touch</button></a
+      >
+    </header>
+    <main>
+      <section
+        class="d-flex gap-3 w100 align-items-start justify-content-between d-flex flex-roq pd-100 py-4 mt-50">
+        <div class="w-45 rounded-4 p-4">
+          <h2 class="text text-shadow-gold">IT Support & Web Developer</h2>
+          <p class="text-white">
+            I am a CUMT student specializing in
+            <span class="fw-bolder text">HTML, CSS, and JavaScript</span>.
+            Beyond coding, I am an experienced
+            <span class="fw-bolder text">IT Support</span> technician skilled in
+            <span class="fw-bolder text">C</span> and
+            <span class="fw-bolder text">system security</span> (Virus
+            cleaning). I combine a foundational knowledge of
+            <span class="fw-bolder text">C#, Python, and MySQL</span> with a
+            'hands-on' approach to technology, delivering both functional
+            software and stable hardware environments for my clients.
+          </p>
+          <img src="./image/program.png" alt="program" class="program-wh rounded-4 h-100" />
+        </div>
+        <div
+          class="container-experience rounded-4 p-4 d-flex flex-column gap-3">
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">Microsoft Office</span>
+              <span class="text-success">85%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold"
+                >Frontend (HTML, CSS, JavaScript)</span
+              >
+              <span class="text-success">60%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 60%"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold"
+                >Backend (Python, C#, MySQL, .Net)</span
+              >
+              <span class="text-danger">5%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 5%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">Photoshop</span>
+              <span class="text-danger">40%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 40%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">IT Support</span>
+              <span class="text">50%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-warning"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">System Security</span>
+              <span class="text-danger">5%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 5%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">System Administration</span>
+              <span class="text-danger">5%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 5%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100">
+            <div class="d-flex justify-content-between mb-1 text-white m-100">
+              <span class="backend-skills fw-bold">Networking</span>
+              <span class="text-danger">15%</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 15%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="text-center mt-100">
+      <p class="text-white">&copy; 2026 Math Farors | Built in Phnom Penh</p>
+    </footer>
+
+    <script src="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
