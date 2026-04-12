@@ -24,13 +24,7 @@
         padding: 0;
         box-sizing: border-box;
       }
-      body {
-        font-family: Arial, sans-serif;
-        background-color: var(--dark-stone);
-        color: #333;
-        background-size: cover;
-        background-position: center;
-      }
+
       main {
         width: 100%;
         height: 100vh;
@@ -94,9 +88,7 @@
         header {
           flex-direction: column;
           align-items: center;
-          
         }
-        
       }
     </style>
   </head>
@@ -115,29 +107,196 @@
         </ul>
       </nav>
       <a href="#contact"
-        ><button class="btn btn-primary">Get in Touch</button></a
+        ><button class="btn bg-btn-gold text-primary btn-hover fw-bold">
+          Get in Touch
+        </button></a
       >
     </header>
-    <main>
-      <section>
-        <div class="w-50">
-          <div class="pd-100 h-25 d-flex flex-column gap-4 pb-0">
-            <h1 class="text text-shadow-gold">Let's Connect</h1>
-            <p class="text-white">
-              I specialize in bridging the gap between hardware and software.
-              Contact me for
-              <span class="fw-bolder text">Custom Web Development</span>,
-              <span class="fw-bolder text">System Optimizations</span>, or
-              <span class="fw-bolder text">Hardware Servicing</span>. Whether
-              it’s refreshing your CPU’s thermal paste or building your digital
-              brand from scratch, I deliver reliable, high-quality results based
-              right here in Phnom Penh.
-            </p>
+    <main class="d-flex flex-column h-100">
+      <section class="pd-100">
+        <div class="d-flex">
+          <div class="w-50">
+            <div class="w-70 h-25 d-flex flex-column gap-1 pb-0">
+              <h1 class="text text-shadow-gold">Let's Connect</h1>
+              <p class="text-white m-left-20">
+                I specialize in bridging the gap between hardware and software.
+                Contact me for
+                <span class="fw-bolder text">Custom Web Development</span>,
+                <span class="fw-bolder text">System Optimizations</span>, or
+                <span class="fw-bolder text">Hardware Servicing</span>. Whether
+                it’s refreshing your CPU’s thermal paste or building your
+                digital brand from scratch, I deliver reliable, high-quality
+                results based right here in Phnom Penh.
+              </p>
+            </div>
+            <div class="w-70 m-30px-auto">
+              <h2 class="text text-shadow-gold w-70 pd-buttom-0">
+                Contact Details
+              </h2>
+              <div class="mt-4">
+                <div class="gap-3 m-left-20 w-70 h-10 pd-top-0 d-flex">
+                  <div
+                    class="w-10 d-flex align-items-center justify-content-center gap-2">
+                    <i
+                      class="bi bi-envelope-fill fz-30 text text-shadow-gold"></i>
+                  </div>
+
+                  <div
+                    class="text-white w-100 h-100 d-flex flex-column align-items-start justify-content-start gap-1">
+                    <span class="fw-bolder text-gray">Email:</span>
+                    <a
+                      href="mailto:mathfarors@gmail.com"
+                      class="w-20 h-50 d-flex flex-column hover-gmail text-white text-decoration-none"
+                      >mathfarors@gmail.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="gap-3 m-left-20 w-70 h-10 pd-top-0 d-flex">
+                  <div
+                    class="w-10 d-flex align-items-center justify-content-center gap-2">
+                    <i
+                      class="bi bi-telephone-fill fz-30 text text-shadow-gold"></i>
+                  </div>
+
+                  <div
+                    class="text-white w-100 h-100 d-flex flex-column align-items-start justify-content-start gap-1">
+                    <span class="fw-bolder text-gray">Phone:</span>
+                    <a
+                      href="tel:+855967444964"
+                      class="w-30 h-50 d-flex flex-column hover-gmail text-white text-decoration-none"
+                      >+855 96 744 964</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="gap-3 m-left-20 w-70 h-10 pd-top-0 d-flex">
+                  <div
+                    class="w-10 d-flex align-items-center justify-content-center gap-2">
+                    <i
+                      class="bi bi-geo-alt-fill fz-30 text text-shadow-gold"></i>
+                  </div>
+
+                  <div
+                    class="text-white w-100 h-100 d-flex flex-column align-items-start justify-content-start gap-1">
+                    <span class="fw-bolder text-gray">Location:</span>
+
+                    <a
+                      href="https://maps.app.goo.gl/ChmSrLoGst7s5Umg9"
+                      target="_blank"
+                      class="w-30 h-50 d-flex flex-column hover-gmail text-white text-decoration-none"
+                      >Russey Keo, Phnom Penh</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-30px-auto w-70">
+              <h2 class="text text-shadow-gold w-70 pd-buttom-0">
+                Service Status:
+              </h2>
+              <div
+                class="text-success pd-buttom-0 gap-2 align-items-center d-flex">
+                <span
+                  class="text-shadow-success text-success-light fz-50 fw-bolder"
+                  >●</span
+                >
+                <span class="fz-30 fw-bold text-success-light"
+                  >Available for Projects </span
+                ><br />
+              </div>
+              <div class="text-white m-left-30">
+                Ready for hire. Specializing in
+                <span class="fw-bolder text">Windows optimization,</span>
+                <span class="fw-bolder text">hardware maintenance,</span> and
+                <span class="fw-bolder text">frontend UI design</span>.
+                In-person support available in Phnom Penh.
+              </div>
+            </div>
+          </div>
+          <form
+            class="w-50 p-md-4 gap-3 d-flex flex-column form-shadow card bg-gray-50 rounded-4"
+            action="">
+            <h3 class="text text-shadow-gold">Input For Contact</h3>
+            <div class="gap-4 d-flex flex-column w-100 h-100">
+              <div class="d-flex flex-column w-100 h-10">
+                <label for="userName" class="text-white fw-bold"
+                  >Full Name</label
+                >
+                <input
+                  class="form-control custom-input w-100 h-100 rounded-2 p-md-1 box-shadow-gold border-1px-gold-solid"
+                  id="userName"
+                  type="text"
+                  placeholder="Enter Full Name" />
+              </div>
+              <div class="d-flex flex-column w-100 h-10">
+                <label for="email" class="text-white fw-bold">Email</label>
+                <input
+                  class="form-control custom-input w-100 h-100 rounded-2 p-md-1 box-shadow-gold border-1px-gold-solid"
+                  id="email"
+                  type="email"
+                  placeholder="Enter Your Email" />
+              </div>
+              <div class="w-100 h-10 d-flex flex-column">
+                <label for="service" class="text-white fw-bold">Service</label>
+                <select
+                  class="form-select custom-input w-100 h-100 rounded-2 p-md-1 box-shadow-gold border-1px-gold-solid"
+                  id="service">
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="web-development">
+                    Custom Web Development
+                  </option>
+                  <option value="system-optimization">
+                    System Optimization
+                  </option>
+                  <option value="hardware-servicing">Hardware Servicing</option>
+                  <option value="hardware-servicing">
+                    IT Support/Windows Setup
+                  </option>
+                  <option value="hardware-servicing">Other</option>
+                </select>
+              </div>
+              <div class="message">
+                <label for="message" class="text-white fw-bold">Message</label>
+                <textarea
+                  class="form-control custom-input w-100 h-100 rounded-2 p-md-1 box-shadow-gold border-1px-gold-solid"
+                  id="message"
+                  rows="10"
+                  placeholder="Enter your message here..."></textarea>
+              </div>
+            </div>
+            <div class="w100 h-10 d-flex justify-content-end">
+              <button
+                class="w-100 btn bg-btn-gold text-primary btn-hover fw-bolder rounded-5">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center pd-buttom-100 p-md-5 mt-5">
+          <div class="w-50 d-flex form-shadow card bg-gray-50 rounded-4 pd-15">
+            <div
+              class="d-flex justify-content-start align-items-center pd-20 pb-md-0">
+              <h4 class="text text-shadow-gold">Find Me!</h4>
+            </div>
+
+            <div>
+              <iframe
+                class="w-100 pd-15 rounded-4"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5839.457041234113!2d104.89261967968635!3d11.631298166747468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109530fb8365ec1%3A0xf5530c3a8abe6530!2s77Coffee!5e0!3m2!1sen!2sus!4v1775709535169!5m2!1sen!2sus%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </section>
     </main>
-
     <footer id="footer" class="text-center">
       <p class="text-white">&copy; 2026 Math Farors | Built in Phnom Penh</p>
     </footer>
